@@ -1,35 +1,55 @@
-
-// All the files are same as different buttons
-    <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <!-- Image View Starts -->
-    <ImageView
-        android:id="@+id/normalImage"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:src="@drawable/image"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+    <!-- First Button Starts -->
+    <Button
+        android:id="@+id/normalButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Normal Button"
+        android:backgroundTint="@color/color3"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        app:tint="@color/color4"
-        android:contentDescription="Description about normal image" />
+        android:layout_marginEnd="10dp"/>
+    <!-- First Button Ends -->
 
-    <ImageView
-        android:id="@+id/customImage"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/photo_gallery"
-        android:layout_below="@id/normalImage"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+    <!-- Second Button Starts -->
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/color3"
+        android:layout_below="@id/normalButton"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:contentDescription="Description about custom image" />
-    <!-- Image View Ends -->
+        android:src="@drawable/image"
+        android:drawablePadding="4dp"
+        app:tint="@color/color4" />
+    <!-- Second Button Ends -->
+
+    <!-- Third Button Starts -->
+    <Button
+        android:id="@+id/imageButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Button With Image and Text"
+        android:padding="10dp"
+        android:layout_below="@id/imageButton"
+        android:drawableLeft="@drawable/image"
+        android:drawableTint="@color/color4"
+        android:backgroundTint="@color/color3"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        tools:ignore="RtlHardcoded"
+        tools:targetApi="m" />
+    <!-- Third Button Ends -->
+
 </RelativeLayout>
