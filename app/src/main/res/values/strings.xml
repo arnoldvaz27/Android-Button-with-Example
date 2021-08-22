@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Different Button</string>
+    <string name="app_name">Button Example</string>
     <string name="normal_button">Normal Button</string>
     <string name="button_with_image_and_text">Button With Image and Text</string>
     <string name="todo">TODO</string>

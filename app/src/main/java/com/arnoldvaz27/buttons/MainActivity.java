@@ -1,10 +1,8 @@
-package com.arnoldvaz27.differentbuttons;
+package com.arnoldvaz27.buttons;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-import com.example.differentandroidcodes.R;
 
 public class MainActivity extends AppCompatActivity {
 

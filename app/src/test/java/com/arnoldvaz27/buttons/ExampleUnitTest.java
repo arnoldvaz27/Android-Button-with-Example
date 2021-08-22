@@ -1,4 +1,4 @@
-package com.arnoldvaz27.differentbuttons;
+package com.arnoldvaz27.buttons;
 
 import org.junit.Test;
 
