@@ -6,7 +6,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "com.arnoldvaz27.differentbuttons"
+        applicationId "com.arnoldvaz27.buttons"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
