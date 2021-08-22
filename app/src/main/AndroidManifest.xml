@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.differentandroidcodes">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.arnoldvaz27.differentbuttons">
 
     <application
         android:allowBackup="true"
@@ -8,8 +9,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DifferentButtons">
-        <activity android:name="com.arnoldvaz27.differentbuttons.MainActivity">
+        android:theme="@style/Theme.DifferentButtons"
+        android:fullBackupContent="">
+        <activity android:name=".MainActivity"
+            tools:ignore="IntentFilterExportedReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
