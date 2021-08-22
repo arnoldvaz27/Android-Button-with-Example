@@ -3,14 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
     <!-- First Button Starts -->
     <Button
         android:id="@+id/normalButton"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Normal Button"
+        android:text="@string/normal_button"
         android:backgroundTint="@color/color3"
         android:textColor="@color/black"
         android:layout_marginTop="20dp"
@@ -30,7 +29,8 @@
         android:layout_marginEnd="10dp"
         android:src="@drawable/image"
         android:drawablePadding="4dp"
-        app:tint="@color/color4" />
+        app:tint="@color/color4"
+        android:contentDescription="@string/todo" />
     <!-- Second Button Ends -->
 
     <!-- Third Button Starts -->
@@ -38,7 +38,7 @@
         android:id="@+id/imageButtonText"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="Button With Image and Text"
+        android:text="@string/button_with_image_and_text"
         android:padding="10dp"
         android:layout_below="@id/imageButton"
         android:drawableLeft="@drawable/image"
